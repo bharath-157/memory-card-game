@@ -1,12 +1,12 @@
-import './index.css'
+import "./index.css";
 
-const GameCard = props => {
-  const {cardDeatils, clickCard} = props
-  const {id, cardName, cardImage} = cardDeatils
+const GameCard = (props) => {
+  const { cardDeatils, clickCard } = props;
+  const { id, cardName, cardImage } = cardDeatils;
 
   const onClickGameCard = () => {
-    clickCard(id)
-  }
+    clickCard(id);
+  };
 
   return (
     <li className="card-item">
@@ -14,7 +14,7 @@ const GameCard = props => {
         <img className="card-icon" src={cardImage} alt={cardName} />
       </button>
     </li>
-  )
-}
+  );
+};
 
-export default GameCard
+export default GameCard;

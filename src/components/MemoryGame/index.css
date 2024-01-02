@@ -1,20 +1,35 @@
 .app-container {
   display: flex;
   flex-direction: column;
-  background-image: linear-gradient(
-    to top right,
-    #56ab2f 0.5%,
-    #a8e063 150%
-  
-  );
+  background-image: linear-gradient(to top right, #56ab2f 0.5%, #a8e063 150%);
   min-height: 100vh;
 }
 
 .memory-game-body {
+  margin-top: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
   flex: 1;
+}
+
+.instructions-list {
+  font-family: "Roboto";
+  color: white;
+  margin-bottom: 40px;
+  margin-left: 10px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.instructions-list li {
+  margin: 8px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .instructions-list {
+    font-size: 18px;
+  }
 }
 
 .emojis-list-container {
