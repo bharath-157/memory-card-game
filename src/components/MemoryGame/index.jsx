@@ -74,9 +74,10 @@ class MemoryGame extends Component {
         <div className="instructions-list">
           <h2>How to Play</h2>
           <ol>
-            {instructionsList.map((list) => (
-              <li key={list}>{list}</li>
-            ))}
+            {instructionsList.map((list,index) => (
+              <li key={index}>{list}</li>
+            ))
+            }
           </ol>
         </div>
         <ul className="emojis-list-container">

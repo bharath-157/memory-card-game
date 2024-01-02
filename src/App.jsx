@@ -5,62 +5,62 @@ import "./App.css";
 const cardsList = [
   {
     id: 0,
-    cardName: "Face with stuck out tongue",
+    cardName: "Apple",
     cardImage: "apple.png",
   },
   {
     id: 1,
-    cardName: "Face with head bandage",
+    cardName: "Burger",
     cardImage: "burger.png",
   },
   {
     id: 2,
-    cardName: "Face with hugs",
+    cardName: "Carrot",
     cardImage: "carrot.png",
   },
   {
     id: 3,
-    cardName: "Face with laughing",
+    cardName: "Grapes",
     cardImage: "grapes.png",
   },
   {
     id: 4,
-    cardName: "Laughing face with hand in front of mouth",
+    cardName: "Ice-cream",
     cardImage: "ice-cream.png",
   },
   {
     id: 5,
-    cardName: "Face with mask",
+    cardName: "Mango",
     cardImage: "mango.png",
   },
   {
     id: 6,
-    cardName: "Face with silence",
+    cardName: "Orange-juice",
     cardImage: "orange-juice.png",
   },
   {
     id: 7,
-    cardName: "Face with stuck out tongue and winked eye",
+    cardName: "Pizza",
     cardImage: "pizza.png",
   },
   {
     id: 8,
-    cardName: "Grinning face with sweat",
+    cardName: "Potato",
     cardImage: "potato.png",
   },
   {
     id: 9,
-    cardName: "Smiling face with heart eyes",
+    cardName: "Ramen",
     cardImage: "ramen.png",
   },
   {
     id: 10,
-    cardName: "Grinning face",
+    cardName: "Strawberry",
     cardImage: "strawberry.png",
   },
   {
     id: 11,
-    cardName: "Smiling face with star eyes",
+    cardName: "Tomato",
     cardImage: "tomato.png",
   },
 ];
