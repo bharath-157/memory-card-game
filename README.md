@@ -6,7 +6,7 @@ Welcome to the React Memory Game! Test your memory skills by clicking on cards, 
 1. Click on a card, and the cards will shuffle.
 2. Try to remember the card's image.
 3. Click on another card, ensuring not to click on the same card twice.
-4. Continue until you reach a score of 12.
+4. Keep clicking on unique cards until you reach a maximum score of 12 to win the game.
 
 ### Technologies Used
 This memory game is developed using React, a popular JavaScript library for building user interfaces. React provides a smooth and efficient way to create interactive and dynamic web applications.
